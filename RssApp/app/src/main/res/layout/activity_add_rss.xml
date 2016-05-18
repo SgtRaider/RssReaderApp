@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raider.rssapp.activities.AddRss">
+
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRssName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:hint="@string/rssname" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRssUrl"
+        android:layout_below="@+id/txtRssName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:hint="@string/url"
+        android:gravity="center" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spTopics"
+        android:layout_below="@+id/txtRssUrl"
+        android:layout_marginTop="40dp"
+        android:layout_alignEnd="@+id/txtRssUrl"
+        android:layout_alignStart="@+id/txtRssUrl" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/btSaveRss"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70sp" />
+
+</RelativeLayout>

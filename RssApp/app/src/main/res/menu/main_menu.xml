@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/preferencias" android:title="@string/preferences" android:icon="@android:drawable/ic_menu_preferences">
+        <item android:id="@+id/ajustes" android:title="@string/settings" android:icon="@android:drawable/ic_menu_preferences"></item>
+        <item android:id="@+id/about" android:title="@string/about" android:icon="@android:drawable/ic_menu_preferences"></item>
+        <item android:id="@+id/ntemas" android:title="@string/newThemes" android:icon="@android:drawable/ic_menu_preferences"></item>
+        <item android:id="@+id/map" android:title="@string/map" android:icon="@android:drawable/ic_menu_preferences"></item>
+    </item>
+    <item android:id="@+id/addrss" android:title="@string/add" android:icon="@android:drawable/ic_menu_add" app:showAsAction="always"/>
+</menu>

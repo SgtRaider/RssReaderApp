@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RssApp</string>
+    <string name="login">Conectar</string>
+    <string name="signin">Registrar</string>
+    <string name="password">Contraseña</string>
+    <string name="nickname">Nick</string>
+    <string name="finish">Terminar</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="settings">Ajustes</string>
+    <string name="about">Acerca De</string>
+    <string name="newThemes">Temas Nuevos</string>
+    <string name="preferences">Preferencias</string>
+    <string name="mail">Email</string>
+    <string name="menu">Menu</string>
+    <string name="add">Añadir</string>
+    <string name="remove">Eliminar</string>
+    <string name="toastNotRemovedRss">Entrada no eliminada</string>
+    <string name="toastRemovedRss">Entrada eliminada</string>
+    <string name="toastEmptyFields">Faltan por rellenar algunos campos</string>
+    <string name="toastCreatedUser">El usuario ha sido dado de alta</string>
+    <string name="toastRssSaved">Rss Guardado</string>
+    <string name="toastRssSaveProblem">Rss No guardado</string>
+    <string name="toastCreatedUserExists">Ya hay un usuario con ese nick</string>
+    <string name="toastLoginFail">Usuario u contraseña incorrectos</string>
+    <string name="toastUpdated">Datos Actualizados</string>
+    <string name="lockOrientation">Bloquear rotación</string>
+    <string name="englishLanguage">Inglés</string>
+    <string name="spanishLanguage">Español</string>
+    <string name="save">Guardar</string>
+    <string name="languages">Idiomas</string>
+    <string name="url">Url</string>
+    <string name="rssname">Nombre Rss</string>
+    <string name="map">Mapa</string>
+    <string name="notification">Nuevas Noticias</string>
+</resources>
